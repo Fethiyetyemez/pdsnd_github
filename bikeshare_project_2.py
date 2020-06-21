@@ -41,7 +41,6 @@ def get_filters_city():
             continue
     return inp_city
 def get_filters_month():
-#editing1 for refactoring    
     
     """
     Asks user to specify a month to analyze.
@@ -63,7 +62,6 @@ def get_filters_month():
     while True:
         try:
             inp_month=input("\nPlease choose a month {}     --->   ".format(month_list)).lower()
-#editing2 for refactoring            
         except:
             continue
         if inp_month  in month_list:
