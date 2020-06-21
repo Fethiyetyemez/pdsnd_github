@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+#This is for modified things example1
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -10,7 +10,7 @@ DAY=['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all
 MONTH=['january','february','march','april','may','june','all']
 
 def get_filters_city():
-    
+#This for modified things example2    
     
     """
     Asks user to specify a city to analyze.
