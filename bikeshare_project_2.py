@@ -1,7 +1,10 @@
 import time
 import pandas as pd
 import numpy as np
+<<<<<<< HEAD
 #This is for modified things example1
+=======
+>>>>>>> refactoring
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -10,8 +13,12 @@ DAY=['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all
 MONTH=['january','february','march','april','may','june','all']
 
 def get_filters_city():
+<<<<<<< HEAD
 #This for modified things example2    
     
+=======
+    
+>>>>>>> refactoring
     """
     Asks user to specify a city to analyze.
 
@@ -27,7 +34,7 @@ def get_filters_city():
     city_list=[]
     for city in CITY_DATA:
         city_list.append(city) 
-        
+#editing for refactoring1        
        
     #get user input for city (chicago, new york city, washington)
     #if user type wrong city, function ask a same question
@@ -50,7 +57,7 @@ def get_filters_month():
 
     Returns:
         (str) month - name of the month to analyze
-        
+#editing for refactoring 2        
     """
     
     # TO DO: get user input for month (all, january, february, ... , june)
