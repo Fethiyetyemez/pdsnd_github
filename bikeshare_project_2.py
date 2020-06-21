@@ -2,7 +2,10 @@ import time
 import pandas as pd
 import numpy as np
 <<<<<<< HEAD
+<<<<<<< HEAD
 #This is for modified things example1
+=======
+>>>>>>> refactoring
 =======
 >>>>>>> refactoring
 CITY_DATA = { 'chicago': 'chicago.csv',
@@ -16,8 +19,11 @@ def get_filters_city():
 <<<<<<< HEAD
 #This for modified things example2    
     
+<<<<<<< HEAD
 =======
     
+>>>>>>> refactoring
+=======
 >>>>>>> refactoring
     """
     Asks user to specify a city to analyze.
@@ -50,7 +56,7 @@ def get_filters_city():
             continue
     return inp_city
 def get_filters_month():
-    
+#editing1 for refactoring    
     
     """
     Asks user to specify a month to analyze.
@@ -72,7 +78,7 @@ def get_filters_month():
     while True:
         try:
             inp_month=input("\nPlease choose a month {}     --->   ".format(month_list)).lower()
-            
+#editing2 for refactoring            
         except:
             continue
         if inp_month  in month_list:
