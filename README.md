@@ -5,11 +5,10 @@ Include the date you created this project and README file.
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
-
+In this project, we will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
+#editing for refactorign2
 ### Files used
-Include the files used
-
+chicago.csv new_york_city.csv washington.csv bikeshare1.py readme.txt README.md
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html https://www.geeksforgeeks.org/python-pandas-index-value_counts/ https://www.geeksforgeeks.org/python-pandas-dataframe-add/?ref=rp https://www.geeksforgeeks.org/python-pandas-dataframe-mode/ https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/ https://www.w3resource.com/python-exercises/python-basic-exercise-65.php https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.unique.html
 
