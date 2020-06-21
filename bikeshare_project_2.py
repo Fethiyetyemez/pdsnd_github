@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-
+#editing1 for refactoring 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -11,7 +11,7 @@ MONTH=['january','february','march','april','may','june','all']
 
 def get_filters_city():
     
-    
+#editing2 for refactoring    
     """
     Asks user to specify a city to analyze.
 
